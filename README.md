@@ -6,3 +6,8 @@ Gainesville is the home to the University of Florida (UF). The University of Flo
 
 This project will be focused on helping students who are looking to rent an off-campus apartment, but this could help anyone who is looking to rent an apartment in Gainesville. With this, students could find affordable apartments to live near or far from the university. They could also find the most popular venues around their house or university.The students who live with their parents could use this to find the most popular places or if they make a decision to find an apartment to live by themselves, this could facilitate the process. 
 
+## Data Description 
+For this project I will be using data from:
+* To find apartments for rent in Gainesville I used the [Realtor API](https://rapidapi.com/apidojo/api/realtor). For the apartments data I only used the address, zip code, latitude, longitude, price minimum, and price maximum. [(Here is my dataset)](/Data/apt_for_rent_in_gainesville.csv)
+* I used Forsquare API to get the most common venues of given Borough of Istanbul [3].
+

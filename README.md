@@ -10,12 +10,11 @@ This project will be focused on helping students who are looking to rent an off-
 For this project I will be using data from:
 * To find apartments for rent in Gainesville I used the [Realtor API](https://rapidapi.com/apidojo/api/realtor). For the apartment data, I only used the address, zip code, latitude, longitude, price minimum, and price maximum. I added the average price for each apartment using the min price and the max price, and for the distance between an apartment and the University of Florida, I used the latitude and longitude from one point to the other one using [Geopy](https://geopy.readthedocs.io/en/stable/). Here is my [(dataset)](/Data/apt_for_rent_in_gainesville.csv)
 * I used the [Foursquare API](https://developer.foursquare.com) to get the most common venues in a 0.5 miles radius around each apartment given address, latitudes, longitudes, avg prices. Here is my [(dataset)](/Data/apt_and_venues_in_gainesville.csv)
-* For Gainesville geo boundaries I used the [UA Census Zip Code Tabulation Areas, 2000 - Florida](https://geo.nyu.edu/catalog/harvard-tg00flzcta). The JSON file had geo-coordinates of all the cities in Florida. To use this file I had to clean the data and reduced it to the city of Gainesville, FL because the file was big and it had data that I didn't need. I used this data to create the choropleth map of the Housing Rental Price Index of Gainesville, FL. Here is my [dataset](/GeoJSON/gainesville_geo.json).
+* For Gainesville geo boundaries I used the [UA Census Zip Code Tabulation Areas, 2000 - Florida](https://geo.nyu.edu/catalog/harvard-tg00flzcta). The JSON file had geo-coordinates of all the cities in Florida. To use this file I had to clean the data and reduced it to the city of Gainesville, FL because the file was big and it had data that I didn't need. I used this data to create the choropleth map of the Housing Rental Price Index of Gainesville, FL. Here is my [(dataset)](/GeoJSON/gainesville_geo.json).
 
 ## References
 * [Gainesville, Fl -Wikipedia](https://en.wikipedia.org/wiki/Gainesville,_Florida)
 * [University of Florida - Fall 2019 Enrollment](https://ir.aa.ufl.edu/uffacts/enrollment-1/)
 * [Venues in Gainesville, FL - Foursquare API](https://developer.foursquare.com)
 * [Apartment for rent in Gainesville, FL - Realtor API](https://rapidapi.com/apidojo/api/realtor)
-
- I cleaned the data and reduced it to city of Istanbul (Here is my .json file) where I used it to create choropleth map of Housing Sales Price Index of Istanbul.
+* [UA Census Zip Code Tabulation Areas, 2000 - Florida](https://geo.nyu.edu/catalog/harvard-tg00flzcta)

@@ -14,6 +14,6 @@ For this project I will be using data from:
 ## References
 * [Gainesville, Fl -Wikipedia](https://en.wikipedia.org/wiki/Gainesville,_Florida)
 * [University of Florida - Fall 2019 Enrollment](https://ir.aa.ufl.edu/uffacts/enrollment-1/)
-* [Venues in Gainesville, FL - Forsquare API](https://developer.foursquare.com)
+* [Venues in Gainesville, FL - Foursquare API](https://developer.foursquare.com)
 * [Apartment for rent in Gainesville, FL - Realtor API](https://rapidapi.com/apidojo/api/realtor)
 

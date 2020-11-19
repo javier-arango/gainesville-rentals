@@ -9,7 +9,7 @@ This project will be focused on helping students who are looking to rent an off-
 ## Data Description 
 For this project I will be using data from:
 * To find apartments for rent in Gainesville I used the [Realtor API](https://rapidapi.com/apidojo/api/realtor). For the apartment data, I only used the address, zip code, latitude, longitude, price minimum, price maximum, sqft minimum, and sqft maximum. I added the average price for each apartment using the min price and the max price, the average sqft I used the sqft min and sqft max, and to calculate the avg price per sqft I divide avg price by avg sqft.
-* I used the [Foursquare API](https://developer.foursquare.com) to get the most common venues in a 0.5 miles radius around each apartment given address, latitudes, longitudes, avg prices. Here is my [(dataset)](/Data/apt_and_venues_in_gainesville.csv)
+* I used the [Foursquare API](https://developer.foursquare.com) to get the most common venues in a 0.5 miles radius around each apartment given address, zip code, latitudes, longitudes, avg prices. Here is my [(dataset)](/Data/apt_and_venues_in_gainesville.csv)
 * For Gainesville geo boundaries I used the [UA Census Zip Code Tabulation Areas, 2000 - Florida](https://geo.nyu.edu/catalog/harvard-tg00flzcta). The JSON file had geo-coordinates of all the cities in Florida. To use this file I had to clean the data and reduced it to the city of Gainesville, FL because the file was big and it had data that I didn't need. I used this data to create the choropleth map of the Housing Rental Price Index of Gainesville, FL. Here is my [(dataset)](/GeoJSON/gainesville_geo.json).
 
 ## References
